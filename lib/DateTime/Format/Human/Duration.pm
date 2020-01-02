@@ -157,7 +157,7 @@ DateTime::Format::Human::Duration - Get a locale specific string describing the 
 =head1 SYNOPSIS
 
     use DateTime;
-    use DateTime::Format::Human::Duration
+    use DateTime::Format::Human::Duration;
 
     my $span = DateTime::Format::Human::Duration->new();
     my $dur = $dta - $dtb;
